@@ -173,10 +173,10 @@ function addDeparture(departure) {
 }
 
 window.onload = function () {
-  clock();
+  //clock();
   update();
   warning();
-  window.setInterval(clock, 1000);
+  //window.setInterval(clock, 1000);
   window.setInterval(update, 10000);
   window.setInterval(warning, 5000);
 };

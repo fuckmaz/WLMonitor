@@ -1,7 +1,7 @@
 {
-  "name": "oeffimonitor",
+  "name": "WLMonitor",
   "version": "0.1.2",
-  "description": "Displays an info screen with the next Wiener Linien public transport connections nearby.",
+  "description": "Wiener Linien public transport live departure monitor",
   "main": "server/httpd.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/metalab/oeffimonitor"
+    "url": "https://github.com/fuckmaz/WLMonitor"
   },
   "author": "Metalab (https://metalab.at)",
   "contributors": [
@@ -21,9 +21,9 @@
   ],
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/metalab/oeffimonitor/issues"
+    "url": "https://github.com/fuckmaz/WLMonitor/issues"
   },
-  "homepage": "https://github.com/metalab/oeffimonitor",
+  "homepage": "https://github.com/fuckmaz/WLMonitor",
   "dependencies": {
     "apicache": "^1.6.3",
     "express": "^4.18.2"
