@@ -76,7 +76,7 @@ function warning() {
 function clock() {
   var currentTime = new Date();
   document.getElementById('currentTime').innerHTML = addZeroBefore(currentTime.getHours()) + ":"
-    + addZeroBefore(currentTime.getMinutes()) + ":"
+    + addZeroBefore(currentTime.getMinutes());
     + addZeroBefore(currentTime.getSeconds());
 }
 
@@ -159,10 +159,10 @@ function addDeparture(departure) {
     difference = difference % 3600;
   }
 
-  differenceString += addZeroBefore(Math.floor(difference / 60)) + 'm';
+  differenceString += Math.floor(difference / 60) + 'm';
   difference = difference % 60;
 
-  differenceString += parseInt(difference / 10) + '0s';
+  //differenceString += parseInt(difference / 10) + '0s';
 
   departureRow.innerHTML = '<tr><td class="time ' + walkStatus +
     '">' + timeString + differenceString + '</td>' +
