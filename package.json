@@ -11,13 +11,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fuckmaz/WLMonitor"
+    "url": "git+https://github.com/fuckmaz/WLMonitor.git"
   },
   "author": "Metalab (https://metalab.at)",
   "contributors": [
-    "Bernhard Hayden <hello@nini.su> (https://github.com/burnoutberni)",
-    "Moritz Wilhelmy (http://barfooze.de)",
-    "Jascha Ehrenreich <jascha@jaeh.at> (https://jaeh.at)"
+    {
+      "name": "Bernhard Hayden",
+      "email": "hello@nini.su",
+      "url": "https://github.com/burnoutberni"
+    },
+    {
+      "name": "Moritz Wilhelmy",
+      "url": "http://barfooze.de"
+    },
+    {
+      "name": "Jascha Ehrenreich",
+      "email": "jascha@jaeh.at",
+      "url": "https://jaeh.at"
+    }
   ],
   "license": "AGPL-3.0",
   "bugs": {
@@ -27,5 +38,6 @@
   "dependencies": {
     "apicache": "^1.6.3",
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {}
 }
