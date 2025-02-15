@@ -104,11 +104,9 @@ td.soon:nth-child(1)::before {
 	opacity:1;
 }
 .tram {
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
 	background: #C00808;
 	color: #FFF;
+	min-width: 25px;
 }
 .bus {
 	padding: 0 3px;
