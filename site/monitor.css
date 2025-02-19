@@ -154,13 +154,16 @@ td.soon:nth-child(1)::before {
 	h1 { font-size: 24px; font-weight: lighter;}
 
 	#title { display: none; }
-	#error {
-		font-size:16px;
-		line-height:16px;
+
+	#warning p,
+	#error p {
+		padding: 0 .5em;
+		margin: .5em 0;
 	}
-	#warning {
-		font-size:16px;
-		line-height:16px;
+	#warning,
+	#errorr {
+		font-size:14px;
+		line-height:14px;
 	}
 	td {
 		height: 24px;
