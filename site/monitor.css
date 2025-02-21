@@ -162,7 +162,7 @@ td.soon:nth-child(1)::before {
 	}
 	#warning,
 	#errorr {
-		font-size:14px;
+		font-size:12px;
 		line-height:14px;
 	}
 	td {
