@@ -61,11 +61,23 @@ table {
 	width: 100%;
 }
 
-thead { font-weight: bold; }
-tbody > tr:nth-child(2n) { background: #222; }
-tbody > tr:nth-child(2n+1) { background: #333; }
-td { border: none; }
-tr > td:nth-child(1) { text-align: center; }
+thead {
+	font-weight: bold;
+}
+tbody > tr:nth-child(2n) {
+	background: #222;
+}
+tbody > tr:nth-child(2n+1) {
+	background: #333;
+}
+td {
+	border: none;
+	font-size: 20px;
+	line-height: 32px;
+}
+tr > td:nth-child(1) {
+	text-align: center;
+}
 
 tr > td:nth-child(2) {
 	text-align: center;
@@ -84,8 +96,12 @@ tr > td:nth-child(2) span {
 	font-weight: bold;
 }
 
-tr > td:nth-child(2) img { height: 80%; }
-tr > td:nth-child(3) { padding-right: 10px; }
+tr > td:nth-child(2) img {
+	height: 80%;
+}
+tr > td:nth-child(3) {
+	padding-right: 10px;
+}
 
 td.time:nth-child(1)::before {
 	content: "●\00a0";
